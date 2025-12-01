@@ -6,6 +6,8 @@
 -- 6064 wrong
 -- 5956 wrong
 
+-- 28 ms
+
 local start = 50
 local position = start
 
