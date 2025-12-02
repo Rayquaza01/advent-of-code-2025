@@ -1,0 +1,12 @@
+What is even happening here? It's explained that invalid IDs are made of a sequence of characters repeated twice. But some of the examples... aren't that?
+
+> 95-115 has one invalid ID, 99.
+It doesn't contain 99. It contains 95, which is fine.
+
+> 998-1012 has one invalid ID, 1010.
+It doesn't contain 1010! It contains 1012, which is fine. (It does contain 99, though).
+
+> 222220-222224 has one invalid ID, 222222.
+It does contain a repeated sequence of 2s, but five of them. Which is fine. Where does the sixth 2 come from.
+
+In two of those examples. 1012 almost matches, but the 2 turns into a 0. And 222220 almost matches, but the 0 turns into a 2.
