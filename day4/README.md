@@ -8,5 +8,5 @@ I was expecting the part 2 one to take *much* longer, but it still got done in t
 
 (Quick note about token count. The token count is just the solution, and the one in parenthesis is the solution + the grid library.)
 
-Part 1: 🪙 131 (307), 🕐️ 40ms
-Part 2: 🪙 291 (467), 🕐️ 190ms
+- Part 1: 🪙 131 (307), 🕐️ 40ms
+- Part 2: 🪙 291 (467), 🕐️ 190ms

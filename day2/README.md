@@ -6,8 +6,8 @@ My initial thought was to do something like `(\d+)\1` maybe? (i.e. match a group
 
 In part 2, I do basically the same thing, but generalize it. I try and split the string into 1 character long sections, then 2, then 3, and so on. If all substrings match, then the string is "invalid" and therefore counted.
 
-Part 1: 🪙 83, 🕐️ 1.5s
-Part 2: 🪙 116, 🕐️ 5s
+- Part 1: 🪙 83, 🕐️ 1.5s
+- Part 2: 🪙 116, 🕐️ 5s
 
 # BONUS
 

@@ -6,5 +6,5 @@ For part 2, you need to do it 12 times. So, I un-duplicated the code and put it 
 
 My part 2 solution is better: it's shorter by literally one token, and it can solve part 1, too. (Part 1 is just part 2 with a limit of 2 instead of 12.) There is basically no performance difference. In fact, the first time I timed them, part 2 ran faster than part 1 lol!
 
-Part 1: 🪙 101, 🕐️ 20ms
-Part 2: 🪙 100, 🕐️ 25ms
+- Part 1: 🪙 101, 🕐️ 20ms
+- Part 2: 🪙 100, 🕐️ 25ms
