@@ -10,7 +10,7 @@ There was a problem with merging ranges either last year or the year before, and
 2. `r1` starts in `r2`, so `r1`'s min should be set to `r2`'s max + 1
 3. `r1` ends in `r2`, so `r1`'s max should be set to `r2`'s min - 1
 4. `r1` starts at the same point as `r2`, so `r1` should be invalidated and `r2`'s max should be set to the larger max between the two
-4. `r1` ends at the same point as `r2`, so `r1` should be invalidated and `r2`'s min should be set to the smaller min between the two
+5. `r1` ends at the same point as `r2`, so `r1` should be invalidated and `r2`'s min should be set to the smaller min between the two
 
 After a little bit of fiddling with it (and a mistake where I accidentally put a `goto` label in the wrong place...), it works! (I'm using `goto` at one point because Lua doesn't have a `continue` statement.)
 
