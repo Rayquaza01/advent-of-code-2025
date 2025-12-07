@@ -6,5 +6,5 @@ The beam counting was a *little* tricky. If a splitter tries to push a beam onto
 
 Part 2 wants to know the total number of times the beam finishes (goes out of bounds), including repeats. So, I got rid of the visited check and beam counting code, and yeah. There's too many. So *now* is the time for memoization! I rewrote my stack code as a recursive function so I can memoize it. (I mean, I'm sure I could do it with it as a stack, but I find memoization easier to do with recursive functions.)
 
-Part 1: 🪙 299 (475) 🕐️ 30ms
-Part 2: 🪙 263 (439) 🕐️ 20ms
+- Part 1: 🪙 299 (475) 🕐️ 30ms
+- Part 2: 🪙 263 (439) 🕐️ 20ms
