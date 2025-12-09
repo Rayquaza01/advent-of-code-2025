@@ -11,4 +11,4 @@ But the answer was wrong. So, I figured maybe I need to check the other corners.
 Eventually, I start visualizing the problem. I start generating SVGs with my code. It's a circle with a giant slice taken out of it. I'm pretty sure one of the points *has* to be one of the ones on the slice. I even tried solving it by hand, and I still got it wrong! I don't know what I'm doing wrong.
 
 - Part 1: 🪙 107 🕐️ 50ms
-- Part 1: 🪙 DNF 🕐️ DNF
+- Part 2: 🪙 DNF 🕐️ DNF
